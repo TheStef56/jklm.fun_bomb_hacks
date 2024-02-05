@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "jklm bomb game hacks",
+    "description": "auto insert words",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "js": ["main.js"],
+            "matches": ["https://jklm.fun/*"],
+            "run_at": "document_end"
+        }
+    ],
+    "action": {
+        "default_title": "jklm bomb game hacks",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "32": "icons/favicon32.png",
+        "64": "icons/favicon64.png",
+        "128": "icons/favicon128.png"
+    }
+}

@@ -10,7 +10,7 @@ written to type a word automatically in the minigame bombparty at jklm.com.
 
 Open the extension tab for your, check the box for developers and load the non-packed extension.
 
-to use it, the browser must be started with cross-scripting protection disabled, or it won't work.
+To work properly, the browser must be started with cross-scripting protection disabled, or it won't work.
 
 *For example, Google Chrome must be started like this:*
 
